@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import toast, {Toaster} from 'react-hot-toast';
 
 const useDataProducts = () => {
-    const ApiProducts = "https://proyectomern2b-wu9z.onrender.com/api/products"
+    const ApiProducts = "https://localhost/4000:api/products"
 
     const [activeTab, setActiveTab] = useState("list"); 
     const [id, setId] = useState("");

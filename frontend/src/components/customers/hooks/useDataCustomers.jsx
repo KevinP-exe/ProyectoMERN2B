@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import toast, { Toaster } from 'react-hot-toast';
 
 const useDataCustomers = () => {
-    const ApiCustomers = "https://proyectomern2b-wu9z.onrender.com/api/customers";
+    const ApiCustomers = "https://localhost/4000:api/customers";
 
     const [activeTab, setActiveTab] = useState("list"); 
     const [id, setId] = useState("");
